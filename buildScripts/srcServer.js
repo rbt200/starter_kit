@@ -5,6 +5,8 @@ var open = require("open");
 var port = 3000;
 var app = express();
 
+/* eslint-disable no-console */
+
 app.get("/", function (req, res) {
   res.sendFile(path.join(__dirname, "../src/index.html"));
 });
