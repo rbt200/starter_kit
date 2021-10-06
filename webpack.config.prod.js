@@ -16,7 +16,7 @@ export default {
     // Eliminate duplicate packages when generating bundle
     new webpack.optimize.DedupePlugin(),
     // Minify JS
-    new webpack.optimize.UglifyPlugin(),
+    new webpack.optimize.UglifyJsPlugin(),
   ],
   module: {
     loaders: [
